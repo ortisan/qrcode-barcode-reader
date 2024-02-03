@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "qrcode-barcode-reader"
+version = "0.1.0"
+description = "QRCode and Barcode Reader"
+authors = ["Marcelo Ortiz de Santana <tentativafc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^10.2.0"
+opencv-python = "^4.9.0.80"
+pyzbar = "^0.1.9"
+numpy = "^1.26.3"
+uuid = "^1.30"
+matplotlib = "^3.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+mypy = "^1.8.0"
+pyright = "^1.1.349"
+autopep8 = "^2.0.4"
+pylint = "^3.0.3"
+tox = "^4.12.1"
+black = "^24.1.1"
+coverage = "^7.4.1"
+pytest = "^8.0.0"
+flake8 = "^7.0.0"
+flake8-bandit = "^4.1.1"
+flake8-docstrings = "^1.7.0"
+flake8-bugbear = "^24.1.17"
+jupyter = "^1.0.0"
+autoflake = "^2.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+main = "qrcode_barcode_reader.__main__:main"

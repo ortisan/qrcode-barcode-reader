@@ -1,0 +1,14 @@
+{
+  "exclude": ["tests"],
+  "reportImportCycles": true,
+  "reportMissingParameterType": false,
+  "reportMissingImports": true,
+  //"reportMissingTypeStubs": false,
+  "reportGeneralTypeIssues": false,
+  "reportUnknownVariableType": false,
+  "reportUnknownParameterType": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownMemberType": false,
+  "pythonVersion": "3.10",
+  "typeCheckingMode": "strict"
+}
